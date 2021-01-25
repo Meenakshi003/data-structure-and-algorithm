@@ -1,0 +1,19 @@
+1)Write a Python program to add two numbers using class and object.
+
+ans: class python:
+       def findsum(self, a,b):
+         s = a + b
+         return s
+    a = int(input("enter first number:"))
+    b = int(input("enter second number:"))
+    obj = test()
+    s = obj.findsum(a,b)
+    print("sum is:",s)
+
+2)Define a function swap that should swap two values and print the swapped variables outside the
+
+ans:x = 10
+    y = 5
+    x = x + y
+    y = x - y
+    print("after swapping : x =",x, "y=",y)
